@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Home from './components/home';
+
+import SideBar from './components/SideBar';
 
 function App() {
   return (
     <>
-    <Home/>
+<SideBar/>
     </>
   );
 }
