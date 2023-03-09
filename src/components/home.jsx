@@ -1,14 +1,17 @@
 import React from "react";
+import logoimg from "../assets/img/hotel_logo.png";
+import logoimg2 from "../assets/img/hotel_logo.png";
+import avatar1 from "../assets/img/profiles/avatar-02.jpg";
 const Home = () => {
     return (
         <>
             <div className="main-wrapper">
                 <div className="header">
                     <div className="header-left">
-                        <a href="index.html" className="logo"> <img src="assets/img/hotel_logo.png" width="50" height="70" alt="logo"/> <span className="logoclassName">HOTEL</span> </a>
-                        <a href="index.html" className="logo logo-small"> <img src="assets/img/hotel_logo.png" alt="Logo" width="30" height="30"/> </a>
+                        <a href="index.html" className="logo"> <img src={logoimg} width="50" height="70" alt="logo"/> <span className="logoclassName">HOTEL</span> </a>
+                        <a href="index.html" className="logo logo-small"> <img src={logoimg2} alt="Logo" width="30" height="30"/> </a>
                     </div>
-                    <a href="javascript:void(0);" id="toggle_btn"> <i className="fe fe-text-align-left"></i> </a>
+                    <a href="" id="toggle_btn"> <i className="fe fe-text-align-left"></i> </a>
                     <a className="mobile_btn" id="mobile_btn"> <i className="fas fa-bars"></i> </a>
                     <ul className="nav user-menu">
                         <li className="nav-item dropdown noti-dropdown">
